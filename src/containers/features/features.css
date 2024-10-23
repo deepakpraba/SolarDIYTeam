@@ -1,0 +1,148 @@
+.solar__whatSolar {
+    display: flex;
+    flex-direction: column;
+ 
+ 
+    padding: 2rem;
+    background: var(--color-footer);
+ 
+ 
+    /*Change the Colors*/
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #BC986A 25%, rgba(188, 152, 106, 1) 85%, rgba(141, 135, 65, 1) 100%);
+ 
+ 
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #BC986A 25%, rgba(188, 152,106, 1) 85%, rgba(141, 135, 65, 1) 100%);
+ 
+ 
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #BC986A 25%, rgba(188, 152, 106, 1) 85%, rgba(141, 135, 65, 1) 100%);
+ 
+ 
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #BC986A 25%, rgba(188, 152, 106, 1) 85%, rgba(141, 135, 65, 1) 100%);
+ 
+ 
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #BC986A 25%, rgba(188, 152, 106, 1) 85%, rgba(141, 135, 65, 1) 100%);
+ 
+ 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+ }
+ 
+ 
+ .solar__whatSolar-feature {
+    display: flex;
+ }
+ 
+ 
+ .solar__whatSolar-feature .solar__features-container__feature {
+    margin: 0;
+ 
+ 
+ }
+ 
+ 
+ .solar__whatSolar-feature .solar__features-container__feature-text {
+    max-width: 700px;
+ }
+ 
+ 
+ .solar__whatSolar-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ 
+ 
+    margin: 4rem 0 2rem 0;
+ 
+ 
+ }
+ .solar__whatSolar-heading h1 {
+   font-size: 34px;
+   line-height: 45px;
+   font-weight: 8000;
+   max-width: 510px;
+   font-family: var(--font-family)
+ }
+ .solar__whatSolar-heading p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    color: var(--color-subtext);
+    cursor: pointer;
+  }
+  .solar__whatSolar-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+ 
+ 
+    margin-top: 2rem;
+  }
+ 
+ 
+  /*From Github*/
+ 
+ 
+ /* Customizing feature component as per needs */
+ .solar__whatSolar-container .solar__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+ }
+ 
+ 
+ /* Customizing feature component as per needs */
+ .solar__whatSolar-container .solar__features-container_feature-text {
+    margin-top: 0.5rem;
+ }
+ 
+ 
+ @media screen and (max-width: 850px) {
+    .solar__whatSolar-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+ 
+ 
+    .solar__whatSolar-heading p {
+        margin-top: 1rem;
+    }
+ }
+ 
+ 
+ @media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .solar__whatSolar-feature .solar__features-container__feature {
+        flex-direction: column;
+    }
+ 
+ 
+    /* Customizing feature component as per needs */
+    .solar__whatSolar-feature .solar__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+ 
+ 
+    .solar__whatSolar-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+ }
+ 
+ 
+ @media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .solar__whatSolar-container .solar__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+ }
+ 
