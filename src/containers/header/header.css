@@ -1,0 +1,133 @@
+.solar__header {
+    display:flex;
+}
+.solar__header-content { 
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+
+}
+
+.solar__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 650;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.04em;  
+}
+
+.solar__header-content p {
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+
+    margin-top: 1.5rem;
+}
+
+.solar__header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+}
+
+.solar__header-content__input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+
+.solar__header-content__input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    background: #8D8741;
+    border-radius: 5px 0px 0px 5px;
+    color:#FFFFFF;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.solar__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.solar__header-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width: 1050px ){
+    .solar__header {
+        flex-direction: column;
+    }
+    .solar__header-content {
+        margin-right: 0 0 3rem;
+    }
+}
+@media screen and (max-width: 650px ){
+    .solar__header h1 {
+        font-size: 48px;
+        line-height: 60px;
+
+    }
+    .solar__header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .solar__header-content__input input, 
+    .solar__header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}
+
+@media screen and (max-width: 490px ){
+    .solar__header h1 {
+        font-size: 36px;
+        line-height: 48px;
+
+    }
+    .solar__header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .solar__header-content__input input, 
+    .solar__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+}
+
